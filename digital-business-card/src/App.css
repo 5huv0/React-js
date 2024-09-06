@@ -1,0 +1,101 @@
+.front-div{
+  background-color: #091c39;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 250px;
+  width: 450px;
+  box-shadow: -20px 14px 40px grey;
+  font-family:mon ;
+  margin-bottom: 90px;
+  margin-top: 20px;
+}
+
+.company-name, .company-slogan, .front-btn{
+  margin: 0px;
+}
+
+.company-slogan{
+  font-size: x-small;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.front-btn{
+  background-color: #091c39;
+  border-color: aliceblue;
+  padding: 15px 15px;
+  border-radius: 0px;
+  font-size:x-small;
+  margin-bottom: 10px;
+}
+
+.front-btn:hover{
+  cursor:context-menu;
+  border-color: aliceblue;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.back-div{
+  background-color: beige;
+  color: #091c39;
+  margin: 0px;
+  height: 250px;
+  width: 450px;
+  box-shadow: -20px 14px 40px grey;
+}
+
+.phn-logo, .add-logo, .email-logo, .insta-logo{
+  margin: 0px;
+  height: 15px;
+  width: 15px;
+  margin-left: 40px;
+}
+
+.contact, .address, .gmail, .insta{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact, .address, .gmail, .insta > p {
+  font-size: x-small;
+  
+}
+
+
+.back-div-heading > h2, p{
+  margin-left: 35px;
+}
+
+.back-div-heading > h2{
+  margin-bottom: 0px;
+  padding-top: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.back-div-heading > p{
+  margin-top: 0px;
+  font-size: x-small;
+  padding-bottom: 20px;
+  text-decoration: underline;
+  text-decoration-thickness: 10px;
+}
+
+.qr{
+  display: flex;
+  flex-direction: row;
+  width: 50px;
+  height: 50px;
+  margin-left: 140px;
+}

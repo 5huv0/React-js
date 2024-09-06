@@ -1,0 +1,57 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.app{
+  background-color: rgb(29, 28, 35);
+  height: 550px;
+  width: 550px;
+}
+
+.logo{
+  width: 35px;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(33, 31, 31);
+  box-shadow: 50px 50px 70px rgb(37, 37, 92);
+}
+
+.ptag{
+  padding-left: 155px;
+  font-weight: 600;
+}
+
+.fact{
+  color: rgb(84, 192, 206);
+}
+
+.list-items{
+  text-align: left;
+  font-weight: 500;
+  padding-left: 70px;
+}
+
+.list-items > li{
+  padding: 7px 10px;
+  font-size: large;
+}
+
+.body-heading{
+  font-weight: 700;
+}
+
+ul li::marker {
+  color: rgb(98, 193, 210); 
+  font-size: 1.8em; 
+}
