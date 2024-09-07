@@ -64,3 +64,9 @@ section{
   width: max-content;
   margin: 20px;
 }
+
+.main-card{
+  display: flex;
+  flex-direction: row;
+  margin-left: 40px;
+}

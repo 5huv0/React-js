@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Card(){
     return(
-        <div>
+        <div className="main-card">
             <div className="card">
             <img className="card-img-top" src="./src/pics/pic4.png" alt="Card image cap"/>
             <div className="card-body">
@@ -13,7 +13,7 @@ export default function Card(){
             </div>
 
             <div className="card">
-            <img className="card-img-top" src="./src/pics/pic4.png" alt="Card image cap"/>
+            <img className="card-img-top" src="./src/pics/pic5.png" alt="Card image cap"/>
             <div className="card-body">
                 <h5 className="card-title">Katie</h5>
                 <p className="card-text">DO the course with katie.</p>
@@ -23,7 +23,7 @@ export default function Card(){
 
 
             <div className="card">
-            <img className="card-img-top" src="./src/pics/pic4.png" alt="Card image cap"/>
+            <img className="card-img-top" src="./src/pics/pic6.png" alt="Card image cap"/>
             <div className="card-body">
                 <h5 className="card-title">Katie</h5>
                 <p className="card-text">DO the course with katie.</p>
@@ -33,7 +33,7 @@ export default function Card(){
 
 
             <div className="card">
-            <img className="card-img-top" src="./src/pics/pic4.png" alt="Card image cap"/>
+            <img className="card-img-top" src="./src/pics/pic7.png" alt="Card image cap"/>
             <div className="card-body">
                 <h5 className="card-title">Katie</h5>
                 <p className="card-text">DO the course with katie.</p>
