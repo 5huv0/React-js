@@ -46,7 +46,7 @@ section{
 }
 
 .card-img-top{
-  width: max-content;
+  width: 250px;
   height: 180px;
   top: 521px;
   left: 37px;
@@ -65,8 +65,13 @@ section{
   margin: 20px;
 }
 
-.main-card{
+/* .main-card{
   display: flex;
   flex-direction: row;
   margin-left: 40px;
+} */
+
+.app{
+  display: flex;
+  flex-direction: row;
 }
