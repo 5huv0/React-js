@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import HeadSec from './components/HeadSec'
 import Card from './components/Card'
+import Joke from './components/Joke'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,7 +11,7 @@ function App() {
   return (
     <>
       <div className='app'>
-        <Card 
+        {/* <Card 
           img = "./src/pics/pic4.png"
           name = "Katie"
           des = "DO the course with katie."
@@ -36,6 +37,22 @@ function App() {
           name = "Katiesa"
           des = "DO the course with katiesa."
           price = "From 133$/person"
+        /> */}
+
+
+        <Joke 
+          joke = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aperiam!"
+          punchline = "Lorem, ipsum dolor."
+        />
+
+        <Joke 
+          joke = "Lorem ipsum dolor sit amet consectetur."
+          punchline = "Lorem ipsum "
+        />
+
+        <Joke 
+          joke = "Lorem ipsum dolor sit amet consectetur Lorem ornme"
+          punchline = "Lorem ipsum dolor sit amet."
         />
 
       </div>
