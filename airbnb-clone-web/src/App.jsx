@@ -41,6 +41,10 @@ function App() {
 
 
         <Joke 
+          punchline = "Lorem, ipsum dolor."
+        />
+
+        <Joke 
           joke = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aperiam!"
           punchline = "Lorem, ipsum dolor."
         />
