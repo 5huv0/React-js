@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <div className='app'>
-        <Card 
+        {/* <Card 
           img = "./src/pics/pic4.png"
           name = "Katie"
           des = "DO the course with katie."
@@ -37,10 +37,10 @@ function App() {
           name = "Katiesa"
           des = "DO the course with katiesa."
           price = "From 133$/person"
-        />
+        /> */}
 
 
-        {/* <Joke 
+        <Joke 
           punchline = "Lorem, ipsum dolor."
         />
 
@@ -57,7 +57,7 @@ function App() {
         <Joke 
           joke = "Lorem ipsum dolor sit amet consectetur Lorem ornme"
           punchline = "Lorem ipsum dolor sit amet."
-        /> */}
+        />
 
       </div>
     </>
