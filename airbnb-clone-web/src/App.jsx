@@ -4,13 +4,20 @@ import Navbar from './components/Navbar'
 import HeadSec from './components/HeadSec'
 import Card from './components/Card'
 import Joke from './components/Joke'
+import JokesData from './components/JokesData'
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  const JokeElement = JokesData.map(joke => {
+    return <Joke joke = {joke.joke} punchline = {joke.punchline} />
+  })
 
   return (
     <>
       <div className='app'>
+
+        {JokeElement}
+
         {/* <Card 
           img = "./src/pics/pic4.png"
           name = "Katie"
@@ -39,7 +46,7 @@ function App() {
           price = "From 133$/person"
         /> */}
 
-
+{/* 
         <Joke 
           punchline = "Lorem, ipsum dolor."
         />
@@ -57,7 +64,9 @@ function App() {
         <Joke 
           joke = "Lorem ipsum dolor sit amet consectetur Lorem ornme"
           punchline = "Lorem ipsum dolor sit amet."
-        />
+        /> */}
+
+
 
       </div>
     </>
