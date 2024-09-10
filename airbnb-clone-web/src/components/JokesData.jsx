@@ -14,9 +14,5 @@ export default [
     {
         setup: "Why do bees stay in the hive in the winter?",
         punchline: "Swarm."
-    },
-    {
-        setup: "What's the best thing about Switzerland?",
-        punchline: "I don't know, but the flag is a big plus!"
     }
 ]
