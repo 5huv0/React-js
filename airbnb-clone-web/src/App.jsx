@@ -8,22 +8,16 @@ import JokesData from './components/JokesData'
 
 function App() {
 
-  // const JokeElement = JokesData.map(joke => {
-  //   return <Joke joke = {joke.joke} punchline = {joke.punchline} />
-  // })
+  const JokeElement = JokesData.map(item => {
+    return <Joke setup = {item.setup} punchline = {item.punchline} />
+  })
 
-  const colors = [
-    <h3>red</h3>,
-    <h3>green</h3>,
-    <h3>blue</h3>
-  ]
 
   return (
     <>
       <div className='app'>
 
-        {colors}
-        {/* {JokeElement} */}
+        {JokeElement}
 
       </div>
     </>
