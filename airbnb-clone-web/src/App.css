@@ -66,11 +66,21 @@ section{
   margin: 10px;
 }
 
-/* .main-card{
+.full-card{
   display: flex;
   flex-direction: row;
-  margin-left: 40px;
-} */
+  position: relative;
+}
+
+.open-spot {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}
 
 .app{
   display: flex;

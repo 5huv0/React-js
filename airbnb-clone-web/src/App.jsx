@@ -23,6 +23,7 @@ function App() {
               name = {item.name}
               des = {item.des}
               price = {item.price}
+              openSpot = {item.openSpot}
             />
   })
 
@@ -32,7 +33,10 @@ function App() {
 
         <Navbar />
         <HeadSec />
-        {Cardsec}
+        <section className='full-card'>
+          {Cardsec}
+        </section>
+        
         {JokeElement}
 
       </div>
