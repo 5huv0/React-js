@@ -10,11 +10,11 @@ import CardData from './components/CardData'
 
 function App() {
 
-  const JokeElement = JokesData.map(item => {
-    return <Joke 
-              {...item}  
-            />
-  })
+  // const JokeElement = JokesData.map(item => {
+  //   return <Joke 
+  //             {...item}  
+  //           />
+  // })
 
   const Cardsec = CardData.map(item => {
     return <Card 
@@ -32,7 +32,7 @@ function App() {
           {Cardsec}
         </section>
         
-        {JokeElement}
+        {/* {JokeElement} */}
 
       </div>
     </>
