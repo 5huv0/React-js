@@ -12,18 +12,13 @@ function App() {
 
   const JokeElement = JokesData.map(item => {
     return <Joke 
-              setup = {item.setup} 
-              punchline = {item.punchline} 
+              {...item}  
             />
   })
 
   const Cardsec = CardData.map(item => {
     return <Card 
-              img = {item.img}
-              name = {item.name}
-              des = {item.des}
-              price = {item.price}
-              openSpot = {item.openSpot}
+               {...item}
             />
   })
 
