@@ -1,0 +1,23 @@
+.navbar{
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: flex;
+    padding: 2px 40px;
+    align-items: center;
+    
+}
+
+.navbar p{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+.troll-face{
+    height: 40px;
+    width: max-content;
+    margin-right: 10px;
+}
