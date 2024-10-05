@@ -4,8 +4,10 @@ export default function Meme(){
     return (
         <div className="container main-div">
             <div className="meme-input">
-                <input type="text" placeholder="Shut Up"/>
-                <input type="text" placeholder="And take my money"/>
+                <label for="shut-up">Top text</label>
+                <input type="text" placeholder="Shut Up" id="shut-up"/>
+                <label for="take-money">Bottom text</label>
+                <input type="text" placeholder="And take my money" id="take-money"/>
             </div>
             <div className="meme-btn">
                 <button>
