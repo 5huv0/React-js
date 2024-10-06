@@ -23,12 +23,12 @@
     margin-right: 10px;
 }
 
-/* .main-div{
+.meme-input{
+    display:flex;
+    flex-direction: row;
+}
+
+.top-txt , .bottom-txt {
     display: flex;
     flex-direction: column;
-    align-items: center;
-} */
-
-.meme-input{
-    
 }
