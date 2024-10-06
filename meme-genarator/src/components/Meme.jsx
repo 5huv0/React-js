@@ -1,6 +1,11 @@
 import React from "react";
 
 export default function Meme(){
+
+    function handleClick(){
+        console.log("I was clicked");
+    }
+
     return (
         <div className="container main-div">
             <div className="meme-input">
@@ -15,7 +20,7 @@ export default function Meme(){
                 
             </div>
             <div className="btn">
-                <button className="meme-btn" onClick>
+                <button className="meme-btn" onClick={handleClick}>
                     Get a new Meme image <img src="" alt="" />
                 </button>
             </div>
