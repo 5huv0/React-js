@@ -3,9 +3,11 @@ import React from "react";
 export default function CartItem(){
     const [items , setItems] = React.useState(["Thing 1", "Thing 2"])
 
+
     function ItemAdded(){
         
     }
+
     return(
         <div>
             <button onClick={ItemAdded}>
@@ -13,7 +15,7 @@ export default function CartItem(){
             </button>
             <div className="items">
                 <p>
-                    item added
+                    {setItems}
                 </p>
             </div>
         </div>
