@@ -5,7 +5,10 @@ export default function CartItem(){
 
 
     function ItemAdded(){
-        
+        const item = items.map(i => {
+            return `Thing ${items.length + 1}`
+        })
+        setItems(item)
     }
 
     return(
