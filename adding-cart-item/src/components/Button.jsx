@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function CartItem(){
+export default function CartItem(props){
     const [items , setItems] = React.useState(["Thing 1", "Thing 2"])
 
 
