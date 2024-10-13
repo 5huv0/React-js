@@ -8,6 +8,7 @@ button{
   height: 100px;
   width: 500%;
   left:500%;
+  border: none;
 }
 
 .items{

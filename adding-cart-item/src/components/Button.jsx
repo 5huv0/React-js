@@ -1,26 +1,22 @@
 import React from "react";
 
-export default function CartItem(props){
-    const [items , setItems] = React.useState(["Thing 1", "Thing 2"])
+export default function CartItem() {
+    const [items, setItems] = React.useState(["Thing 1"]);
 
-
-    function ItemAdded(){
-        const item = items.map(i => {
-            return `Thing ${items.length + 1}`
-        })
-        setItems(item)
+    function ItemAdded() {
+        setItems(prevItems => [...prevItems, `Thing ${prevItems.length + 1}`]);
     }
 
-    return(
+    return (
         <div>
             <button onClick={ItemAdded}>
                 Add Item
             </button>
             <div className="items">
-                <p>
-                    {setItems}
-                </p>
+                {items.map((item, index) => (
+                    <p key={index}>{item}</p> 
+                ))}
             </div>
         </div>
-    )
-} 
+    );
+}
