@@ -15,9 +15,6 @@ export default function CartItem(props){
         <div>
             <button onClick={ItemAdded}>
                 Add Item
-
-
-                
             </button>
             <div className="items">
                 <p>
