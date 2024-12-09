@@ -1,15 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 export default function Counter() {
 
-    let counter = 23;
+    let [counter, setCounter] = useState(0)
 
     const addCounter = function add() {
-        
+        setCounter(counter + 1)
     }
 
     const subtCounter = function subt(){
-        
+        if(counter <= 0){
+            counter = 'not possible';
+        }
+        counter = counter -  1
+        setCounter(counter)
+        console.log(counter)
     }
 
   return (
