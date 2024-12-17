@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Converter() {
   return (
-    <div className='bg-slate-500 p-7 m-9 flex flex-col justify-evenly'>
+    <div className='bg-slate-500 p-7 m-8 flex flex-col justify-evenly'>
         <label htmlFor="">
             from
             <input type="text" />
